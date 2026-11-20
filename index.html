@@ -11,11 +11,13 @@
   <meta property="og:type" content="website">
   <meta name="theme-color" content="#090b10">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' blob: data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self' https://stats.othrys.be ws://127.0.0.1:*; object-src 'none'; base-uri 'self'; form-action 'none'">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="search" type="application/opensearchdescription+xml" title="ShrinkMyPhoto" href="/opensearch.xml" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="search" type="application/opensearchdescription+xml" title="ShrinkMyPhoto" href="./opensearch.xml" />
   <link rel="canonical" href="https://shrinkmyphoto.othrys.be/">
   <meta property="og:url" content="https://shrinkmyphoto.othrys.be/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://shrinkmyphoto.othrys.be/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://shrinkmyphoto.othrys.be/og-image.svg">
 
   <!-- Instant Non-Flashing Theme Boot -->
   <script>
@@ -86,9 +88,9 @@
     ]
   }
   </script>
-  <link rel="manifest" href="/manifest.json">
-  <script type="module" crossorigin src="/assets/index-DBtNftf6.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CgDwwguO.css">
+  <link rel="manifest" href="./manifest.json">
+  <script type="module" crossorigin src="./assets/index-DBtNftf6.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CgDwwguO.css">
 </head>
 <body>
   <a class="skip" href="#compressor">Skip to compressor</a>
@@ -215,7 +217,7 @@
             </select>
 
             <label id="flatten-wrap" class="checkbox" hidden>
-              <input id="flatten" type="checkbox"> 
+              <input id="flatten" type="checkbox">
               <span>I agree to replace transparency with white background for JPEG.</span>
             </label>
 
@@ -240,7 +242,7 @@
             <h3 id="result-title">Optimized &amp; Ready</h3>
             <p id="result-stats" class="stats-highlight"></p>
             <p id="target-result" class="target-message"></p>
-            
+
             <div class="result-actions">
               <a id="download" class="button primary">Download Photo <span aria-hidden="true">↓</span></a>
               <button type="button" id="copy-image" class="button secondary" title="Copy compressed image directly to clipboard for Slack, Figma, or Mail">Copy Image 📋</button>
@@ -424,11 +426,12 @@
       <span class="sovereign-tag">100% Client-Side · Zero Cookies · Zero Cloud Storage</span>
     </div>
   </footer>
-
+
+
 
   <aside id="othrys-cluster-mesh" aria-label="Directory and Related Workflow Tools" style="max-width:960px;margin:24px auto;padding:12px 16px;font:13px/1.5 system-ui,sans-serif;text-align:center;opacity:0.85;border-top:1px solid rgba(128,128,128,0.2);"><strong><a href="/tools/" style="color:inherit;text-decoration:underline;">Explore All ShrinkMyPhoto Tools &amp; Presets</a></strong> &bull; Related Client-Side Tools: <a href="https://webptopng.othrys.be/" style="color:inherit;text-decoration:underline;">WebPtoPNG (Zero-Upload WebP to PNG/JPG Converter)</a> &bull; <a href="https://favicon.othrys.be/" style="color:inherit;text-decoration:underline;">FaviconGen (Multi-Size ICO, PNG & SVG Favicon Packager)</a> &bull; <a href="https://freeqr.othrys.be/" style="color:inherit;text-decoration:underline;">FreeQR (Static Zero-Expiration Vector QR Generator)</a></aside>
-<script src="/fleet-spotlight.js" defer></script>
-<script src="/stats.js" defer></script>
+<script src="./fleet-spotlight.js" defer></script>
+<script src="./stats.js" defer></script>
 
 <!-- OTHRYS Contextual Next Tool Recommendation -->
 <div class="othrys-next-recommendation" style="margin:28px auto;max-width:760px;padding:12px 18px;background:#1e293b;border:1px solid rgba(255,255,255,0.12);border-radius:10px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-family:system-ui,-apple-system,sans-serif;font-size:13px;">
